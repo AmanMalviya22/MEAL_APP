@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meal App</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>Meal App</h1>
+    </div>
+  </header>
+
+  <main class="container">
+    <div id="search-container">
+      <input type="text" id="search-input" placeholder="Search for a meal">
+      <ul id="search-results"></ul>
+    </div>
+    <div id="favorites-container">
+      <h2>My Favorite Meals</h2>
+      <ul id="favorites-list"></ul>
+    </div>
+    <div id="meal-details-container">
+      <h2 id="meal-name"></h2>
+      <img id="meal-image" src="" alt="Meal Image">
+      <p id="meal-instructions"></p>
+      <button id="add-to-favorites-btn">Add to Favorites</button>
+      <button id="remove-from-favorites-btn">Remove from Favorites</button>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
